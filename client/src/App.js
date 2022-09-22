@@ -7,7 +7,8 @@ import Navbar from './components/shared/Navbar';
 import Davhorne from './components/Aboutpages/davhorne/Davhorne';
 import Borjakay from './components/Aboutpages/borjakay/Borjakay';
 import Gregmartos from './components/Aboutpages/gregmartos/Gregmartos';
-
+import Mauricemartins from './components/Aboutpages/mauricemartins/Mauricemartins';
+import Reviews from './components/shared/review/Reviews';
 const App = () => (
 <>
   <Navbar />
@@ -19,7 +20,8 @@ const App = () => (
     <Route path='/davhorne' element={<Davhorne />} />
     <Route path='/borjakay' element={<Borjakay />} />
     <Route path='/gregmartos' element={<Gregmartos />} />
-
+    <Route path='/mauricemartins' element={<Mauricemartins />} />
+    <Route path='/reviews' element={<Reviews />} />
     
   </Routes>
 </>

@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 const WorkersList = () => (
     <>
     <h2>David Horne- </h2>
@@ -15,6 +15,11 @@ const WorkersList = () => (
     <h4>RoofTop Specialist</h4>
     <Link to='/Gregmartos'>
             <li>About Greg</li>
+        </Link>
+    <h2>Maurice Martins- </h2>
+    <h4>Appliance Specialist</h4>
+    <Link to='/Mauricemartins'>
+            <li>About Maurice</li>
         </Link>
     </>
 )
